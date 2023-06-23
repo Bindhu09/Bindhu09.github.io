@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website-Bindhu</title>
+    <link rel="stylesheet" href="stylep.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.jpg" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#portfolio ">Coding Profiles</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Student</p>
+            <h1>Hi, I'm <span>Bindhu</span><br> From Hyderabad</h1>
+        </div>
+    </div>
+</div>
+<hr>
+<!------------------About--------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Bindhu2.jpg" width="50%" height="100%">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an organised, efficient and hard working person, and am willing to discover and accept new ideas which can be put into practice effectively. I am a good listener and learner, able to communicate well with a group and on an individual level. 
+                    I am able to motivate and direct my talents and skills to meet objectives.<br></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C</span><br>Intermediate</li>
+                            <li><span>C++</span><br>Intermediate</li>
+                            <li><span>HTML</span><br>Intermediate</li>
+                            <li><span>SQL</span><br>Intermediate</li>
+                            <li><span>Java</span><br>Basic</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - Current</span><br>Pursuing B.Tech in CMR Technical Campus
+                            <ol>Grade : 9.2 CGPA</ol></li>
+                            <li><span>2018 - 2020</span><br>Intermediate in Sri Chaitanya Junior College
+                            <ol>Grade : 98.2%</ol></li>
+                            <li><span>2018</span><br>SSC in Good News E.M High SChool
+                            <ol>Grade : 9.7 CGPA</ol></li>
+                        </ul>
+                    </div>
+            </div>  
+        </div>
+    </div>
+</div>
+<hr>
+<!-----------Services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Heart Disease Prediction Using Bio Inspired Algorithms</h2>
+                <p>Project to predict the heart diseases.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Student Management System</h2>
+                <p>
+                    <ul><li>An interface which will given an option to ADD , UPDATE , DELETE records of students.<br>
+                    </li>
+                    <li>This is the Backend tool for managing the student details.<br></li>
+                    <li>Technologies Used: HTML , CSS , JavaScript , PHP.</p></li>
+                </ul>
+                <a href="https://github.com/Bindhu09/crud" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Personal Portpolio</h2>
+                <p>
+                    <ul>
+                        <li>An interface which describe my Skills and Achievements.</li>
+                        <li>Technologies Used: HTML , CSS , JavaScript.</li>
+                    </ul>
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-----------Portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Coding Platforms</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/codechef1.jpg">
+                <div class="layer">
+                    <h3>Codechef</h3>
+                    <p>A coding platform for practice</p>
+                    <a href="https://www.codechef.com/users/kondabala123" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/leetcode1.png">
+                <div class="layer">
+                    <h3>Leetcode</h3>
+                    <p>A coding platform for practice</p>
+                    <a href="https://leetcode.com/207r1a05l7/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/codeforces.png">
+                <div class="layer">
+                    <h3>Codeforces</h3>
+                    <p>A coding platform for practice</p>
+                    <a href="https://codeforces.com/profile/207r1a05l7" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/hacker.png">
+                <div class="layer">
+                    <h3>Hackerrank</h3>
+                    <p>A coding platform for practice</p>
+                    <a href="https://www.hackerrank.com/207r1a05l71?hr_r=1" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://mentorpick.com/profile/207r1a05l7-bindhu" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+<hr>
+<!--------------Contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-envelope"></i>kondabalabindhu2024@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9391276927</p>
+                <p><i class="fas fa-user-graduate"></i>B.Tech, 4th year</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/indhu0911/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kondabala-bindhu-b98737212/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Bindhu09" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="images/MyResume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Bindhu.<i class="fa fa-heart"></i></p>
+    </div>
+</div>
+<a href="#"><i class="fa fa-home"></i></a>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right="0";
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3WkX8z6EDqmE9f-Nlz2Z4gWv7x7RiGmYzeZhhUXlNZ104780d9JuiaBRTWAXzdvP3iQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
