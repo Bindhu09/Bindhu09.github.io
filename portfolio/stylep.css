@@ -321,7 +321,9 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(Bindhu2.jpg);
+        background: url(Bindhu4.jpeg);
+        background-repeat: no-repeat;
+        background-size: 300px 100px;
     }
     .header-text{
         margin-top: 100%;
